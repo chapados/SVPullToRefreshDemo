@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70220BE8155C2DED00E9BE3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70220BE7155C2DED00E9BE3B /* UIKit.framework */; };
+		70220BEA155C2DED00E9BE3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70220BE9155C2DED00E9BE3B /* Foundation.framework */; };
+		70220BEC155C2DED00E9BE3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70220BEB155C2DED00E9BE3B /* CoreGraphics.framework */; };
+		70220BF2155C2DED00E9BE3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70220BF0155C2DED00E9BE3B /* InfoPlist.strings */; };
+		70220BF4155C2DED00E9BE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70220BF3155C2DED00E9BE3B /* main.m */; };
+		70220BF8155C2DED00E9BE3B /* PRDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70220BF7155C2DED00E9BE3B /* PRDAppDelegate.m */; };
+		70220C2D155C2E9C00E9BE3B /* SVPullToRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 70220C2A155C2E9C00E9BE3B /* SVPullToRefresh.bundle */; };
+		70220C2E155C2E9C00E9BE3B /* SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 70220C2C155C2E9C00E9BE3B /* SVPullToRefresh.m */; };
+		70220C31155C2F8600E9BE3B /* PRDTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70220C30155C2F8600E9BE3B /* PRDTestController.m */; };
+		70220C33155C334700E9BE3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70220C32155C334700E9BE3B /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70220BE3155C2DED00E9BE3B /* SVPullToRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVPullToRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70220BE7155C2DED00E9BE3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70220BE9155C2DED00E9BE3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70220BEB155C2DED00E9BE3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70220BEF155C2DED00E9BE3B /* SVPullToRefreshDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVPullToRefreshDemo-Info.plist"; sourceTree = "<group>"; };
+		70220BF1155C2DED00E9BE3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70220BF3155C2DED00E9BE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70220BF5155C2DED00E9BE3B /* SVPullToRefreshDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVPullToRefreshDemo-Prefix.pch"; sourceTree = "<group>"; };
+		70220BF6155C2DED00E9BE3B /* PRDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRDAppDelegate.h; sourceTree = "<group>"; };
+		70220BF7155C2DED00E9BE3B /* PRDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRDAppDelegate.m; sourceTree = "<group>"; };
+		70220C2A155C2E9C00E9BE3B /* SVPullToRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVPullToRefresh.bundle; sourceTree = "<group>"; };
+		70220C2B155C2E9C00E9BE3B /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		70220C2C155C2E9C00E9BE3B /* SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefresh.m; sourceTree = "<group>"; };
+		70220C2F155C2F8600E9BE3B /* PRDTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRDTestController.h; sourceTree = "<group>"; };
+		70220C30155C2F8600E9BE3B /* PRDTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRDTestController.m; sourceTree = "<group>"; };
+		70220C32155C334700E9BE3B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70220BE0155C2DED00E9BE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70220C33155C334700E9BE3B /* QuartzCore.framework in Frameworks */,
+				70220BE8155C2DED00E9BE3B /* UIKit.framework in Frameworks */,
+				70220BEA155C2DED00E9BE3B /* Foundation.framework in Frameworks */,
+				70220BEC155C2DED00E9BE3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70220BD8155C2DED00E9BE3B = {
+			isa = PBXGroup;
+			children = (
+				70220BFE155C2E8200E9BE3B /* Vendor */,
+				70220BED155C2DED00E9BE3B /* SVPullToRefreshDemo */,
+				70220BE6155C2DED00E9BE3B /* Frameworks */,
+				70220BE4155C2DED00E9BE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70220BE4155C2DED00E9BE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70220BE3155C2DED00E9BE3B /* SVPullToRefreshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70220BE6155C2DED00E9BE3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70220C32155C334700E9BE3B /* QuartzCore.framework */,
+				70220BE7155C2DED00E9BE3B /* UIKit.framework */,
+				70220BE9155C2DED00E9BE3B /* Foundation.framework */,
+				70220BEB155C2DED00E9BE3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70220BED155C2DED00E9BE3B /* SVPullToRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70220BF6155C2DED00E9BE3B /* PRDAppDelegate.h */,
+				70220BF7155C2DED00E9BE3B /* PRDAppDelegate.m */,
+				70220BEE155C2DED00E9BE3B /* Supporting Files */,
+				70220C2F155C2F8600E9BE3B /* PRDTestController.h */,
+				70220C30155C2F8600E9BE3B /* PRDTestController.m */,
+			);
+			path = SVPullToRefreshDemo;
+			sourceTree = "<group>";
+		};
+		70220BEE155C2DED00E9BE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70220BEF155C2DED00E9BE3B /* SVPullToRefreshDemo-Info.plist */,
+				70220BF0155C2DED00E9BE3B /* InfoPlist.strings */,
+				70220BF3155C2DED00E9BE3B /* main.m */,
+				70220BF5155C2DED00E9BE3B /* SVPullToRefreshDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70220BFE155C2E8200E9BE3B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				70220C29155C2E9C00E9BE3B /* SVPullToRefresh */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		70220C29155C2E9C00E9BE3B /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				70220C2A155C2E9C00E9BE3B /* SVPullToRefresh.bundle */,
+				70220C2B155C2E9C00E9BE3B /* SVPullToRefresh.h */,
+				70220C2C155C2E9C00E9BE3B /* SVPullToRefresh.m */,
+			);
+			name = SVPullToRefresh;
+			path = SVPullToRefresh/SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70220BE2155C2DED00E9BE3B /* SVPullToRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70220BFB155C2DED00E9BE3B /* Build configuration list for PBXNativeTarget "SVPullToRefreshDemo" */;
+			buildPhases = (
+				70220BDF155C2DED00E9BE3B /* Sources */,
+				70220BE0155C2DED00E9BE3B /* Frameworks */,
+				70220BE1155C2DED00E9BE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVPullToRefreshDemo;
+			productName = SVPullToRefreshDemo;
+			productReference = 70220BE3155C2DED00E9BE3B /* SVPullToRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70220BDA155C2DED00E9BE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = chapados.org;
+			};
+			buildConfigurationList = 70220BDD155C2DED00E9BE3B /* Build configuration list for PBXProject "SVPullToRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70220BD8155C2DED00E9BE3B;
+			productRefGroup = 70220BE4155C2DED00E9BE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70220BE2155C2DED00E9BE3B /* SVPullToRefreshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70220BE1155C2DED00E9BE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70220BF2155C2DED00E9BE3B /* InfoPlist.strings in Resources */,
+				70220C2D155C2E9C00E9BE3B /* SVPullToRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70220BDF155C2DED00E9BE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70220BF4155C2DED00E9BE3B /* main.m in Sources */,
+				70220BF8155C2DED00E9BE3B /* PRDAppDelegate.m in Sources */,
+				70220C2E155C2E9C00E9BE3B /* SVPullToRefresh.m in Sources */,
+				70220C31155C2F8600E9BE3B /* PRDTestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70220BF0155C2DED00E9BE3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70220BF1155C2DED00E9BE3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70220BF9155C2DED00E9BE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70220BFA155C2DED00E9BE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70220BFC155C2DED00E9BE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVPullToRefreshDemo/SVPullToRefreshDemo-Prefix.pch";
+				INFOPLIST_FILE = "SVPullToRefreshDemo/SVPullToRefreshDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70220BFD155C2DED00E9BE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVPullToRefreshDemo/SVPullToRefreshDemo-Prefix.pch";
+				INFOPLIST_FILE = "SVPullToRefreshDemo/SVPullToRefreshDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70220BDD155C2DED00E9BE3B /* Build configuration list for PBXProject "SVPullToRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70220BF9155C2DED00E9BE3B /* Debug */,
+				70220BFA155C2DED00E9BE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70220BFB155C2DED00E9BE3B /* Build configuration list for PBXNativeTarget "SVPullToRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70220BFC155C2DED00E9BE3B /* Debug */,
+				70220BFD155C2DED00E9BE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70220BDA155C2DED00E9BE3B /* Project object */;
+}
